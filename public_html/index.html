@@ -5,9 +5,49 @@
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <script src='http://cdn.html5quintus.com/v0.1.6/quintus-all.js'></script>
+        <script src='http://cdn.html5quintus.com/v0.1.6/quintus-all.js'></script>        
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+        <script src="lib/game.js"></script>
     </head>
     <body style="background-color: black;">
-    <script src='lib/game.js'> </script>
+        <<!-- Start of first page -->
+<div data-role="page" id="foo">
+
+	<div data-role="header">
+		<h1>Sokoban</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<a href="#game" data-role="button" data-theme="a">Start</a>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Skoro Clone</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of second page -->
+<div data-role="page" id="game">
+
+	<div data-role="header">
+		<h1><button onClick="location.reload()">Restart</button></h1>
+	</div><!-- /header -->
+
+	<div data-role="content" style="background-color: black;">	
+            <div id="quintus_container" style="width: 400px; margin: 0px auto; position: relative;">
+                <canvas width="400" height="400" id="quintus" style="height: 400px; width: 400px; position: relative;">
+                    
+                </canvas>
+                
+            </div>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
     </body>
 </html>

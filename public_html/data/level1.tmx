@@ -432,4 +432,22 @@
    <tile gid="7"/>
   </data>
  </layer>
+ <objectgroup name="CheckPoint1" width="19" height="11">
+  <object x="262" y="104"/>
+ </objectgroup>
+ <objectgroup name="CheckPoint2" width="19" height="11">
+  <object x="280" y="105"/>
+ </objectgroup>
+ <objectgroup name="CheckPoint3" width="19" height="11">
+  <object x="264" y="121"/>
+ </objectgroup>
+ <objectgroup name="CheckPoint4" width="19" height="11">
+  <object x="281" y="121"/>
+ </objectgroup>
+ <objectgroup name="CheckPoint5" width="19" height="11">
+  <object x="264" y="137"/>
+ </objectgroup>
+ <objectgroup name="CheckPoint6" width="19" height="11">
+  <object x="281" y="136"/>
+ </objectgroup>
 </map>

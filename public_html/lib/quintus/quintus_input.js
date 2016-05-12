@@ -543,11 +543,10 @@ Quintus.Input = function(Q) {
 
 
   Q.component("stepControls", {
-
     added: function() {
       var p = this.entity.p;
 
-      if(!p.stepDistance) { p.stepDistance = 32; }
+      if(!p.stepDistance) { p.stepDistance = 16; }
       if(!p.stepDelay) { p.stepDelay = 0.2; }
 
       p.stepWait = 0;
